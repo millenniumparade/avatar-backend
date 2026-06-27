@@ -1,0 +1,8 @@
+-r requirements.txt
+
+# FaceVerse_v4 runtime dependencies.
+# Do not install torch/torchvision here: the AutoDL image is assumed to provide
+# PyTorch 2.5.1 + CUDA 12.4. Installing plain torch from PyPI can silently
+# replace it with a CPU-only build.
+cython==3.0.11
+mediapipe==0.10.20

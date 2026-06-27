@@ -1,0 +1,318 @@
+{
+  "gender": 2,
+  "glass": false,
+  "hair": 22,
+  "glassid": 0,
+  "Color_Skin": [
+    246.0,
+    234.0,
+    227.0
+  ],
+  "Color_Hair": [
+    64.0,
+    39.0,
+    28.0
+  ],
+  "shapeKeys": [
+    {
+      "id": 1,
+      "name": "CC_eye_PositionX",
+      "weight": 0.035596235356750563
+    },
+    {
+      "id": 2,
+      "name": "CC_eye_PositionZ",
+      "weight": 0.33145809097015594
+    },
+    {
+      "id": 3,
+      "name": "CC_eye_ScaleXYZ",
+      "weight": -0.31301963601460264
+    },
+    {
+      "id": 4,
+      "name": "CC_eye_ScaleZ",
+      "weight": -0.3897951892869291
+    },
+    {
+      "id": 5,
+      "name": "CC_eye_RotateY",
+      "weight": 1.0
+    },
+    {
+      "id": 6,
+      "name": "CC_upperyeylid1_PositionZ",
+      "weight": -0.9548382110224306
+    },
+    {
+      "id": 7,
+      "name": "CC_upperyeylid2_PositionZ",
+      "weight": -0.32191808341316075
+    },
+    {
+      "id": 8,
+      "name": "CC_upperyeylid3_PositionZ",
+      "weight": 0.17436881604884766
+    },
+    {
+      "id": 9,
+      "name": "CC_loweryeylid1_PositionZ",
+      "weight": 0.14919331692792287
+    },
+    {
+      "id": 10,
+      "name": "CC_loweryeylid2_PositionZ",
+      "weight": -0.7066335248550675
+    },
+    {
+      "id": 11,
+      "name": "CC_loweryeylid3_PositionZ",
+      "weight": 0.588547536223299
+    },
+    {
+      "id": 12,
+      "name": "CC_eyecorner_PositionX",
+      "weight": 0.1899463835578275
+    },
+    {
+      "id": 13,
+      "name": "CC_eyecorner_PositionZ",
+      "weight": 0.21392680719176832
+    },
+    {
+      "id": 14,
+      "name": "CC_eyetail_PositionX",
+      "weight": 0.6366783335286468
+    },
+    {
+      "id": 15,
+      "name": "CC_eyetail_PositionZ",
+      "weight": 0.40521377090523814
+    },
+    {
+      "id": 16,
+      "name": "CC_eyebrow_PositionZ",
+      "weight": 0.0
+    },
+    {
+      "id": 17,
+      "name": "CC_eyebrow_PositionY",
+      "weight": 0.0
+    },
+    {
+      "id": 18,
+      "name": "CC_eyebrow1_PositionZ",
+      "weight": 0.0
+    },
+    {
+      "id": 19,
+      "name": "CC_eyebrow2_PositionZ",
+      "weight": 0.0
+    },
+    {
+      "id": 20,
+      "name": "CC_eyebrow3_PositionZ",
+      "weight": 0.0
+    },
+    {
+      "id": 21,
+      "name": "CC_nose_scaleZ",
+      "weight": -0.29512496374341113
+    },
+    {
+      "id": 22,
+      "name": "CC_nose_Roundness/Sharpness",
+      "weight": 0.477873960804724
+    },
+    {
+      "id": 23,
+      "name": "CC_nosebridge1_PositionZ",
+      "weight": 1.0
+    },
+    {
+      "id": 24,
+      "name": "CC_nosebridge2_PositionY",
+      "weight": -0.999999999999999
+    },
+    {
+      "id": 25,
+      "name": "CC_nosetip_PositionZ",
+      "weight": 0.0
+    },
+    {
+      "id": 26,
+      "name": "CC_nosewing_ScaleX",
+      "weight": 0.02351792851610098
+    },
+    {
+      "id": 27,
+      "name": "CC_nosewing_ScaleZ",
+      "weight": -0.7561034898746419
+    },
+    {
+      "id": 28,
+      "name": "CC_nosewing_PositionZ",
+      "weight": 1.0
+    },
+    {
+      "id": 29,
+      "name": "CC_nosewing1_PositionX",
+      "weight": 1.0
+    },
+    {
+      "id": 30,
+      "name": "CC_nosewing3_PositionX",
+      "weight": -1.0
+    },
+    {
+      "id": 31,
+      "name": "CC_nosebottom_positionZ",
+      "weight": -1.0
+    },
+    {
+      "id": 32,
+      "name": "CC_mouse_PositionZ",
+      "weight": 0.39039556645251033
+    },
+    {
+      "id": 33,
+      "name": "CC_mouse_ScaleX",
+      "weight": 1.0
+    },
+    {
+      "id": 34,
+      "name": "CC_upperlip2_PositionZ",
+      "weight": -0.9355461653121954
+    },
+    {
+      "id": 35,
+      "name": "CC_upperlip2_PositionX",
+      "weight": -0.02329437522084015
+    },
+    {
+      "id": 36,
+      "name": "CC_upperlip3_PositionZ",
+      "weight": 1.0
+    },
+    {
+      "id": 37,
+      "name": "CC_upperlip3_PositionX",
+      "weight": 0.41280209140843294
+    },
+    {
+      "id": 38,
+      "name": "CC_lowerlip1_PositionZ",
+      "weight": 0.6980155094704581
+    },
+    {
+      "id": 39,
+      "name": "CC_lowerlip1_PositionX",
+      "weight": 0.4031940562050789
+    },
+    {
+      "id": 40,
+      "name": "CC_lowerlip2_PositionZ",
+      "weight": -0.9999999999999996
+    },
+    {
+      "id": 41,
+      "name": "CC_lowerlip2_PositionX",
+      "weight": 0.8558402433270332
+    },
+    {
+      "id": 42,
+      "name": "CC_mouthline1_PositionZ",
+      "weight": -0.050941582182465237
+    },
+    {
+      "id": 43,
+      "name": "CC_mouthline2_PositionZ",
+      "weight": 0.4291683636208183
+    },
+    {
+      "id": 44,
+      "name": "CC_mouthline3_PositionZ",
+      "weight": -0.9999999999999999
+    },
+    {
+      "id": 45,
+      "name": "CC_mouthcorner_PositionZ",
+      "weight": -0.6728503688877654
+    },
+    {
+      "id": 46,
+      "name": "CC_mouthcorner_PositionX",
+      "weight": -0.8795959200113448
+    },
+    {
+      "id": 47,
+      "name": "CC_philtrum_PositionY",
+      "weight": 0.4244197426709425
+    },
+    {
+      "id": 48,
+      "name": "CC_cheekbone_PositionX",
+      "weight": 0.0
+    },
+    {
+      "id": 49,
+      "name": "CC_cheekbone_Skinny",
+      "weight": 0.0
+    },
+    {
+      "id": 50,
+      "name": "CC_cheek_PositionX",
+      "weight": 0.0
+    },
+    {
+      "id": 51,
+      "name": "CC_cheek_PositionZ",
+      "weight": 0.0
+    },
+    {
+      "id": 52,
+      "name": "CC_cheek_Skinny",
+      "weight": 0.0
+    },
+    {
+      "id": 53,
+      "name": "CC_chin1_PositionZ",
+      "weight": 0.0
+    },
+    {
+      "id": 54,
+      "name": "CC_chin2_PositionZ",
+      "weight": 0.0
+    },
+    {
+      "id": 55,
+      "name": "CC_jaw1_positionX",
+      "weight": 0.0
+    },
+    {
+      "id": 56,
+      "name": "CC_jaw2_positionX",
+      "weight": 0.0
+    },
+    {
+      "id": 57,
+      "name": "CC_jaw3_positionX",
+      "weight": 0.0
+    },
+    {
+      "id": 58,
+      "name": "CC_eyebrow_thin1",
+      "weight": 0.0
+    },
+    {
+      "id": 59,
+      "name": "CC_eyebrow_thin2",
+      "weight": 0.0
+    },
+    {
+      "id": 60,
+      "name": "CC_eyebrow_thin3",
+      "weight": 0.0
+    }
+  ]
+}

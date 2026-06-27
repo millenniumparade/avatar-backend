@@ -1,0 +1,27 @@
+ARG BASE_IMAGE=pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
+FROM ${BASE_IMAGE}
+
+WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV PIP_NO_CACHE_DIR=1
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        libgl1 \
+        libglib2.0-0 \
+        libsm6 \
+        libxext6 \
+        libxrender1 \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt requirements-gpu.txt ./
+RUN python -m pip install --upgrade pip \
+    && python -m pip install -r requirements-gpu.txt
+
+COPY . .
+RUN chmod +x scripts/docker-entrypoint.sh
+
+ENTRYPOINT ["scripts/docker-entrypoint.sh"]
+CMD ["celery", "-A", "app.workers.celery_app.celery_app", "worker", "--loglevel=info", "-Q", "avatar_gpu", "--concurrency=1", "--prefetch-multiplier=1", "--max-tasks-per-child=20"]

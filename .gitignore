@@ -1,0 +1,67 @@
+# Python cache/build output
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.dll
+*.dylib
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.autodl.example
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# Codex/local agent metadata
+.agents/
+.codex/
+
+# Runtime state and generated files
+logs/
+*.log
+celerybeat-schedule
+output/
+storage/*
+!storage/.gitkeep
+
+# Local databases and credentials
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key
+*.p12
+
+# Model weights and generated 3D artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.task
+*.obj
+*.ply
+*.glb
+*.fbx
+
+# Third-party research repo and model assets are fetched/uploaded separately.
+FaceVerse_v4/
